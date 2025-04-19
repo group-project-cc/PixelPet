@@ -2,15 +2,19 @@
 
 _What is PixelPet_?
 
-PixelPet is an all-in-one therapeutic solution to all of life's problems in the form of a desktop app that houses **Pixel Animated Pets!** 🦉🐶😺🪰 <br>
-Feed them.
-Pet them.
-Play with them.
+PixelPet is an all-in-one therapeutic solution to all of life's problems in the form of a desktop app that houses **Pixel Animated Pets!** 🦉🐶😺🪰 
 
-**Dress them up with COSMETICS! 🧥**
+<br>
 
+- Feed them.
+- Pet them.
+- Play with them.
 
-Your pets are always there on your screen even if you're blankly staring at it, wondering why your "print("Hello World)" is taking 22 minutes to run. <br>
+- **Dress them up with COSMETICS! 🧥**
+
+<br>
+
+Your pets are always there on your screen even if you're blankly staring at it, wondering why your 'print("Hello World")' is taking 22 minutes to run. <br>
 <br>
 
 Made with **lots** of efforts _and_ care by: <br> <br>
