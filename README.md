@@ -18,7 +18,7 @@ Your pets are always there on your screen even if you're blankly staring at it, 
 <br>
 
 Made with **lots** of efforts _and_ care by: <br> <br>
-PES2UG22CS393 [@procub3r](https://github.com/pr0cub3r) <br>
+PES2UG22CS393 [@procub3r](https://github.com/procub3r) <br>
 PES2UG22CS384 [@ParvathiPrakash](https://github.com/ParvathiPrakash) <br>
 PES2UG22CS416 [@princia05](https://github.com/princia05)<br>
 PES2UG22CS902 [@PES2UG22CS902](https://github.com/PES2UG22CS902) ....don't ask 🗿 <br>
