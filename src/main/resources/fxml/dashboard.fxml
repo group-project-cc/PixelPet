@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.pixel_pet.controller.PetController"
+            fx:id="rootPane"
+            prefWidth="600" prefHeight="550"
+            stylesheets="@../styles/style.css">
+
+    <VBox spacing="15" alignment="TOP_CENTER" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10">
+
+        <!-- Pet Type & Action Selection -->
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Choose Pet:"/>
+            <ComboBox fx:id="petSelector" prefWidth="120"/>
+
+            <Label text="Action:"/>
+            <ComboBox fx:id="actionSelector" prefWidth="120"/>
+            <Button text="Go!" onAction="#performAction"/>
+        </HBox>
+
+        <!-- Pet GIF Animation -->
+        <WebView fx:id="petGifView" prefHeight="250" prefWidth="300"/>
+
+        <!-- Name Field -->
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Name your pet:"/>
+            <TextField fx:id="petNameField" promptText="Enter name..." />
+            <Button text="Set Name" onAction="#namePet"/>
+        </HBox>
+
+        <!-- Status -->
+        <Label fx:id="petStatusLabel" styleClass="status-label"/>
+
+        <!-- Progress Bars -->
+        <VBox spacing="5" alignment="CENTER">
+            <Label text="Hunger"/>
+            <ProgressBar fx:id="hungerBar" prefWidth="200"/>
+            <Label text="Happiness"/>
+            <ProgressBar fx:id="happinessBar" prefWidth="200"/>
+        </VBox>
+
+        <!-- Actions -->
+        <HBox spacing="20" alignment="CENTER">
+            <Button text="Feed" onAction="#feedPet"/>
+            <Button text="Play" onAction="#playWithPet"/>
+        </HBox>
+
+    </VBox>
+</AnchorPane>
+

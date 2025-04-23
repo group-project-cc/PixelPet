@@ -1,0 +1,35 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #f0f4f8, #d9e2ec);
+}
+
+.label {
+    -fx-font-size: 14px;
+}
+
+.status-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #2a7a2a;
+    -fx-font-size: 16px;
+    -fx-padding: 10 0 10 0;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 2, 0, 1, 1);
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.combo-box, .text-field {
+    -fx-pref-height: 28px;
+}
+
+.progress-bar {
+    -fx-accent: #76c7c0;
+}
